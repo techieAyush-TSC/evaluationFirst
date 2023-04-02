@@ -1,0 +1,1242 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    color: #666666;
+    font-size: 14px;
+    font-family: Raleway;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+    background-color: #fffcf4;
+}
+
+.nav-container {
+    background-color: #021239;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 13vh;
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+    width: 82%;
+    padding-left: 6%;
+    justify-content: space-around;
+}
+
+.navbar {
+    display: flex;
+    width: 67%;
+    height: 13vh;
+    justify-content: space-around;
+    margin-left: 30px;
+
+}
+
+.coto-logo {
+    color: white;
+    background-color: #021239;
+    text-align: center;
+    font-size: 45px;
+    line-height: 88%;
+    margin-top: 26px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    width: 8vw;
+    height: 18vh;
+    font-family: 'Poppins';
+    font-weight: 700;
+    z-index: 0;
+}
+
+.child-nav-container {
+    border: 3px solid pink;
+    display: flex;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+
+    gap: 38px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: "Raleway";
+    font-size: 14px;
+}
+
+a:hover,
+.coto-logo:hover {
+    color: #e8531f;
+    border-bottom: 3px solid orangered;
+    border-bottom-style: double;
+}
+.nav-links img:hover{
+    background-color: #e8531f;
+    background: linear-gradient(#e8531f, black);
+    cursor: pointer; 
+}
+
+input[type='checkbox'],
+label {
+    order: 3;
+    display: none;
+}
+
+/*****************contact us********************/
+.contact-us-container {
+    background: url('./banner-bg.png');
+    background-size: 100% 105vh;
+    height: 105vh;
+    padding-top: 13%;
+    background-repeat: no-repeat;
+}
+
+.contact-content h1 {
+    line-height: 55px;
+    font-size: 54px;
+    color: #fffcf4;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact-content {
+    padding-left: 19%;
+}
+
+.contact-buttons {
+    display: flex;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.btn-container {
+    width: 60%;
+    padding-left: 19%;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-container button {
+    border-radius: 16px;
+    font-size: 15px;
+    height: 9vh;
+    width: 13.6vw;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.next-btn-container {
+    width: 40%;
+}
+
+.next-btn-container button {
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    width: 4vw;
+    height: 8vh;
+}
+
+button:hover, .form-btn-cont input:hover, .contact-info > div, .social-media img {
+    cursor: pointer;
+}
+
+.btn-container button:hover,
+.next-btn-container button:hover,
+.latest-btns-container button:hover {
+    background-color: #e8531f;
+    color: white;
+}
+
+/*********about company************/
+.about-company-container {
+    display: flex;
+}
+
+.about-company-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15%;
+    padding-left: 12%;
+}
+
+.about-company-image {
+    width: 50%;
+    padding-left: 9%;
+}
+
+.about-company-content h2 {
+    font-size: 36px;
+    line-height: 14vh;
+    text-transform: uppercase;
+    color: #191919;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.about-company-content p {
+    width: 85%;
+    font-size: 13px;
+    line-height: 26px;
+    color: #090808;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.about-more-btn {
+    width: 28%;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: #e8531f;
+    color: white;
+    font-size: xx-small;
+    margin-top: 18px;
+}
+
+.comp-img-cont {
+    width: 715px;
+    height: 660px;
+    border-radius: 340px;
+    background-color: #efefef;
+    padding-top: 8%;
+}
+
+.comp-img-cont img {
+    padding-right: 1%;
+    width: 47vw;
+    margin-left: -18%;
+}
+
+/***********our-service-container*********/
+.our-services-container {
+    display: flex;
+    justify-content: center;
+}
+
+.services-head {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 18%;
+    color: black;
+}
+
+.services-head h2 {
+    font-size: 5.5vh;
+}
+
+.our-service-round {
+    width: 715px;
+    height: 114vh;
+    border-radius: 340px;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-section {
+    display: flex;
+    margin-left: -45.5%;
+    width: 99vw;
+    gap: 2em;
+    padding-top: 5%;
+}
+
+.architect-design {
+    width: 40%;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arch-img {
+    width: 15vw;
+    padding-bottom: 20px;
+}
+
+.sub-arch-text {
+    display: flex;
+    gap: 1.5em;
+    padding-bottom: 2%;
+}
+
+.arc-img {
+    height: 6vh;
+}
+
+.sub-arch-text h3 {
+    padding-top: 2.5%;
+    font-size: 16px;
+    color: #090a0b;
+    font-weight: 800;
+    font-family: "Raleway";
+}
+
+.arch-text {
+    padding-left: 5%;
+}
+
+.arch-text p {
+    width: 19vw;
+    font-size: 12px;
+    line-height: 25px;
+    color: #090a0b;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.reconst {
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.elect-system {
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+}
+
+.elect-img {
+    width: 16vw;
+    height: 68vh;
+    padding-bottom: -5%;
+    padding-bottom: 22%;
+}
+
+.service-btns {
+    display: flex;
+    gap: 13em;
+}
+
+.service-btns button {
+    width: 11vw;
+    height: 5vh;
+    border-radius: 6px;
+    margin-top: 20px;
+    color: #fffcf4;
+    font-size: 9px;
+    border-style: none;
+    background-color: #e8531f;
+}
+
+/*********LATEST PROJECTS************/
+.latest-project-container {}
+
+.latest-project-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12%;
+}
+
+.latest-project-head h1 {
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "Raleway";
+}
+
+.latest-btns-container {
+    display: flex;
+}
+
+.inactive-btn {
+    font-size: 16px;
+    width: 12vw;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    font-family: "Raleway";
+    border-style: none;
+}
+
+.active-btn {
+    width: 6vw;
+    height: 8vh;
+    border-style: none;
+    background-color: #e8531f !important;
+    color: white;
+}
+
+.latest-project-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-left: 1%;
+    padding-top: 3%;
+}
+
+.latest-project-imgs img {
+    width: 24%;
+}
+
+/************our philosophy************/
+.our-philosophy-container {}
+
+.philosophy-head {
+    text-align: center;
+    padding-top: 6%;
+}
+
+.philosophy-head h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.philosophy-head p {
+    font-size: 15px;
+    line-height: 32px;
+    color: black;
+    font-weight: 400;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.philosophy-tab-container {
+    display: flex;
+    padding-left: 14%;
+    padding-top: 4%;
+}
+
+.philosophy-tab {
+    display: flex;
+    border: 1px solid gray;
+    width: 46%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.tab-no {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5vh;
+    align-items: center;
+    padding-left: 13%;
+}
+
+.tab-no p {
+    width: 7vw;
+    height: 14vh;
+    border-radius: 6px;
+    background-color: #e8531f;
+    align-items: inherit;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+}
+
+.tab-head h3 {
+    font-size: 25px;
+    line-height: 32px;
+    color: black;
+    font-weight: 500;
+    font-family: "Raleway";
+}
+
+.philosophy-img {
+    width: 54%;
+}
+
+.philosophy-img img {
+    width: 45.5vw;
+    height: 85vh;
+    padding-top: 11%;
+}
+
+.tab-head {
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+    padding-top: 6%;
+    padding-left: 10%;
+}
+
+/**************our features project ***********/
+.our-features-proj-container {
+    padding-top: 7%;
+}
+
+.features-proj-head {
+    text-align: center;
+}
+
+.features-proj-head h1 {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-family: "Raleway";
+}
+
+.features-proj-head p {
+    color: black;
+}
+
+.features-proj-imgs {
+    display: flex;
+    gap: 1em;
+    padding-left: 13%;
+    padding-top: 2%;
+}
+
+.feat-img {
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+
+.feat-text-one {
+    position: absolute;
+    top: 63vh;
+    left: 2vw;
+    font-size: 26px;
+    line-height: 35px;
+    color: #fffcf4;
+    font-weight: 400;
+    font-family: "Raleway";
+}
+
+.features-proj-imgs img {
+    width: 24vw;
+}
+
+.next-feat-btn {
+    position: absolute;
+    top: 42%;
+    left: -14%;
+}
+
+.prev-feat-btn {
+    position: absolute;
+    top: 42%;
+    left: 85%;
+}
+
+.next-feat-btn button {
+    border-radius: 50%;
+    background-color: #e8531f;
+    color: white;
+    width: 6vw;
+    height: 11vh;
+    border-style: none;
+}
+
+/************get in touch************/
+.msg-resp {
+    display: none;
+}
+
+.get-in-touch-container {
+    padding-top: 6%;
+
+}
+
+.get-in-touch-head {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    padding-bottom: 2%;
+}
+
+.form-container {
+    background-color: #efefef;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.form-div input,
+textarea,
+button {
+    border-style: none;
+}
+
+#email {
+    width: 40vw;
+    height: 7vh;
+    padding: 1.5%;
+    color: black;
+    border: 1px solid white;
+}
+
+
+#name,
+#phone {
+    height: 7vh;
+    width: 20vw;
+    padding: 1.5%;
+    color: black;
+    border: 1px solid white;
+}
+
+#message {
+    margin-top: 0%;
+    padding-top: 2.5%;
+    padding-left: 1.5%;
+    color: black;
+    border: 1px solid white;
+}
+#name:hover,#phone:hover,#email:hover,#message:hover{
+    border-color: #e8531f;
+}
+.form-btn {
+    width: 14vw;
+    height: 9vh;
+    background-color: #021239;
+    color: white;
+    font-weight: 500;
+    font-size: 100%;
+}
+
+.form-btn-cont {
+    padding-bottom: 3%;
+}
+
+/***********get a quote**********/
+.quote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #e8531f;
+}
+
+.quote-container {
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    font-family: "Raleway";
+    gap: 2em;
+}
+
+.quote-btn button {
+    width: 15vw;
+    height: 8vh;
+    border-radius: 4px;
+    background-color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/********what clients says*********/
+.clients-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.clients-head h1 {
+    color: black;
+    font-size: 5.5vh;
+}
+
+.about-client img {
+    transition: all .5s ease-in-out;
+    height: 20vh;
+}
+
+.about-client h3 {
+    color: black;
+    line-height: 15px;
+}
+
+.about-client p {
+    font-size: 90%;
+    line-height: 18px;
+    color: #e07c06;
+}
+
+.clients-head {
+    width: 60%;
+}
+
+.clients-head p {
+    color: black;
+    font-size: 13px;
+}
+
+.client-thought {
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    gap: 2em;
+}
+
+.client-comment {
+    width: 52%;
+    padding-top: 2.7%;
+    border-radius: 25px;
+    height: 25vh;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 1px 1px 1px 2px lightslategrey;
+}
+
+.client-comment p {
+    color: black;
+    font-size: 13px;
+    text-align: start;
+}
+
+.next-dots {
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    gap: 0.5em;
+}
+
+.dot-active {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #fffdf6;
+    border: 4px solid #f7941d;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: #e07c06;
+}
+
+/**********contact footer**********/
+.contact-footer-container {
+    background-color: #021239;
+    padding-top: 6%;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+
+.loc-symbol {
+    padding-top: 8% !important;
+}
+
+.symbol {
+    width: 75px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: #f7f4f8;
+    text-align: center;
+    padding-top: 11%;
+}
+
+.symbol img {
+    height: 3vh;
+}
+
+.contact-text {
+    line-height: 3vh;
+    color: white;
+    font-size: 83%;
+}
+
+.call,
+.mail,
+.location {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.social-media img {
+    width: 1.5vw;
+}
+
+/********copyright-footer**********/
+.copyright-footer {
+    background-color: #e8531f;
+    color: white;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-size: smaller;
+}
+
+.nav-links-container-phone {
+    display: none;
+}
+
+@media only screen and (min-width: 250px) and (max-width:950px) {
+
+    #check:checked+.nav-links-container-phone {
+        display: flex;
+        background-color: #021239;
+        justify-content: center;
+    }
+
+    .nav-links-container {
+        display: none;
+    }
+
+    .nav-links {
+        display: grid;
+        justify-content: start;
+    }
+
+    .navbar {
+        width: 100%;
+        margin-left: 0px;
+        gap: 2em;
+    }
+
+    label {
+        display: block;
+        padding-top: 10%;
+    }
+
+
+    .coto-logo {
+        font-size: 37px;
+        width: 23vw;
+        height: 10vh;
+    }
+
+    .nav-container {
+        display: block;
+    }
+
+    .contact-us-container {
+        height: 70vh;
+    }
+
+    .contact-content h1 {
+        font-size: 35px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+    }
+
+    .btn-container {
+        width: 100%;
+        padding-left: 7%;
+        padding-bottom: 15%;
+    }
+
+    .btn-container button {
+        height: 7vh;
+        width: 40vw;
+    }
+
+    .next-btn-container {
+        width: 100%;
+    }
+
+    .next-btn-container button {
+        width: 13vw;
+        height: 7vh;
+    }
+
+    .nav-links-container {
+        padding-left: 0%;
+    }
+
+    li img {
+        display: none;
+    }
+
+    .nav-links {
+        gap: 20px;
+        justify-content: center;
+    }
+    
+
+    /*********about company**********/
+    .about-company-container {
+        flex-direction: column-reverse;
+    }
+
+    .about-company-content {
+        width: 100%;
+        padding-top: 0%;
+    }
+
+    .about-company-image {
+        width: 100%;
+        padding-left: 0%;
+        padding-top: 2%;
+    }
+
+    .comp-img-cont {
+        width: auto;
+        height: auto;
+    }
+
+    .comp-img-cont img {
+        padding-right: 0%;
+        margin-left: 18%;
+    }
+
+    .about-more-btn {
+        width: 50%;
+        font-size: small;
+    }
+
+    /********our services********/
+    .services-head h2 {
+        font-size: 4vh;
+    }
+
+    .services-head p {
+        width: 75%;
+    }
+
+    .arch-img,
+    .elect-img {
+        display: none;
+    }
+
+    .our-service-round {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .services-section {
+        margin-left: 0%;
+        flex-direction: column;
+    }
+
+    .service-btns {
+        gap: 2em;
+        justify-content: center;
+    }
+
+    .architect-design,
+    .reconst,
+    .elect-system {
+        width: 100%;
+        height: 100%;
+    }
+
+    .service-btns button {
+        width: 40vw;
+        height: 6vh;
+        font-size: 14px;
+    }
+
+    .arch-text {
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .arch-text p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .btn-hide {
+        display: none;
+    }
+
+    /**********latest project**********/
+    .latest-btns-container {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .inactive-btn,
+    .active-btn {
+        font-size: 13px;
+        width: 30vw;
+        background-color: whitesmoke;
+        height: 5vh;
+    }
+
+    .latest-project-imgs {
+        padding-left: 0%;
+    }
+
+    .latest-project-imgs img {
+        width: 100%;
+    }
+
+    /********philisophy tab*********/
+    .philosophy-tab-container {
+        padding-left: 0%;
+        flex-direction: column-reverse;
+    }
+
+    .philosophy-img,
+    .philosophy-img img {
+        width: 100%;
+        height: 100%;
+        padding-top: 0%;
+    }
+
+    .philosophy-tab {
+        width: 100%;
+    }
+
+    .tab-no p {
+        width: 30vw;
+        height: 14vh;
+    }
+
+    .tab-head {
+        gap: 7em;
+    }
+
+    /**********features project***********/
+    .features-proj-imgs {
+        padding-left: 8%;
+    }
+
+    .next-feat-btn button {
+        width: 14vw;
+        height: 6vh;
+    }
+
+    .features-proj-head h1 {
+        font-size: 28px;
+    }
+
+    .next-feat-btn {
+        top: 31%;
+        left: -35%;
+    }
+
+    .prev-feat-btn {
+        top: 30%;
+        left: 80%;
+    }
+
+    .get-in-touch-container {
+        padding-top: 2%;
+    }
+
+    #name,
+    #phone {
+        width: 42vw;
+    }
+
+    #email {
+        width: 84vw;
+    }
+
+    .msg-normal {
+        display: none;
+    }
+
+    .msg-resp {
+        display: block;
+    }
+
+    #message {
+        padding-top: 13%;
+    }
+
+    .form-msg {
+        padding-left: 7%;
+        margin-top: -4%;
+    }
+
+    .feat-text-one {
+        display: none;
+    }
+
+    .form-btn {
+        width: 40vw;
+        height: 6vh;
+    }
+
+    /******quote container********/
+    .quote-container {
+        font-size: 10px;
+        flex-direction: column;
+    }
+
+    .quote-btn button {
+        width: 30vw;
+        height: 5vh;
+    }
+
+    /******what clients says**********/
+    .clients-head {
+        width: 100%;
+    }
+
+    .clients-container h1 {
+        font-size: 4vh;
+    }
+
+    .client-thought {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .client-comment {
+        width: 90%;
+        padding-top: 2%;
+        height: 17vh;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        gap: 3em;
+        align-items: flex-start;
+        padding-left: 22%;
+    }
+
+    .social-media img {
+        width: 7vw;
+    }
+
+
+}
+
+/*Animations*/
+.next-dots div:hover{
+    background-color: #fffdf6;
+    border: 4px solid #f7941d;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.services-section > div:hover{
+    background: linear-gradient(#021239,#e8531f);
+    cursor: pointer;
+    rotate: 360deg;
+    transition: 2s;
+}
+.tab-no p:hover{
+    rotate: 360deg;
+    transition: 2s;
+}
+.quote-btn button:hover{
+    background-color: #090a0b;
+    color: white;
+}
+.symbol:hover {
+    background-color: #1e1e1e;
+}
+.contact-text p:hover{
+    color: #e8531f;
+}
+.latest-project-imgs img:hover{
+    border-radius: 50%;
+    transition: 1s ease;
+}
+.our-service-round:hover {
+    position: relative;
+    animation-name: examples;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    box-shadow: 2px 2px 2px 4px #e8531f;
+}
+@keyframes examples{
+0% {
+    background-color: teal;
+    left: 0px;
+    top: 0px;
+}
+25% {
+    background-color: lightcoral;
+    left: 0px;
+    top: 0px;
+}
+50% {
+    background-color: lightgreen;
+    left: 0px;
+    top: 0px;
+}
+75% {
+    background-color: burlywood;
+    left: 0px;
+    top: 0px;
+}
+100% {
+    background-color: teal;
+    left: 0px;
+    top: 0px;
+}
+}
+button:hover {
+    animation: wiggle 2s linear infinite;
+  }
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  .feat-img:hover, .about-client img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+input:focus{
+    border-color: green;
+}
