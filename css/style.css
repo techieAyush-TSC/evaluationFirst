@@ -854,7 +854,8 @@ button {
         display: grid;
         justify-content: start;
     }
-    .nav-links li{
+
+    .nav-links li {
         width: 100%;
     }
 
@@ -927,11 +928,13 @@ button {
         width: 100%;
         padding-top: 4%;
     }
-    .nav-links li{
+
+    .nav-links li {
         width: 100vw;
         border-bottom: 1px solid black;
     }
-    .nav-links a{
+
+    .nav-links a {
         color: #090808;
         font-weight: 700;
     }
@@ -993,7 +996,7 @@ button {
         margin-left: 0%;
         flex-direction: column;
         padding-left: 2%;
-    padding-right: 1%;
+        padding-right: 1%;
     }
 
     .service-btns {
@@ -1150,7 +1153,8 @@ button {
         width: 30vw;
         height: 5vh;
     }
-    .quote-head h1{
+
+    .quote-head h1 {
         padding-left: 2%;
     }
 
@@ -1162,7 +1166,8 @@ button {
     .clients-container h1 {
         font-size: 4vh;
     }
-    .clients-head p{
+
+    .clients-head p {
         padding-left: 1%;
         padding-right: 1%;
     }
@@ -1177,7 +1182,8 @@ button {
         padding-top: 2%;
         height: 18vh;
     }
-    .client-comment p{
+
+    .client-comment p {
         padding-left: 2%;
     }
 
