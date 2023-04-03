@@ -843,8 +843,7 @@ button {
 
     #check:checked+.nav-links-container-phone {
         display: flex;
-        background-color: #021239;
-        justify-content: center;
+        background-color: white;
     }
 
     .nav-links-container {
@@ -854,6 +853,9 @@ button {
     .nav-links {
         display: grid;
         justify-content: start;
+    }
+    .nav-links li{
+        width: 100%;
     }
 
     .navbar {
@@ -921,6 +923,16 @@ button {
     .nav-links {
         gap: 20px;
         justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .nav-links li{
+        width: 100vw;
+        border-bottom: 1px solid black;
+    }
+    .nav-links a{
+        color: #090808;
+        font-weight: 700;
     }
 
 
@@ -962,6 +974,7 @@ button {
 
     .services-head p {
         width: 75%;
+        text-align: center;
     }
 
     .arch-img,
@@ -978,6 +991,8 @@ button {
     .services-section {
         margin-left: 0%;
         flex-direction: column;
+        padding-left: 2%;
+    padding-right: 1%;
     }
 
     .service-btns {
