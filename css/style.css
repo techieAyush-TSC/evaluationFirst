@@ -925,6 +925,7 @@ button {
         justify-content: center;
         text-align: center;
         width: 100%;
+        padding-top: 4%;
     }
     .nav-links li{
         width: 100vw;
